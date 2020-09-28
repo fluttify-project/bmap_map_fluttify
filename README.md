@@ -3,10 +3,8 @@
 # 百度地图 地图组件 Flutter插件
 [![pub package](https://img.shields.io/pub/v/bmap_map_fluttify.svg)](https://pub.Flutter-io.cn/packages/bmap_map_fluttify)
 
+**专业版为付费插件, 如有需要请联系qq 382146139**<br/>
 **专业版为付费插件, 如有需要请联系qq 382146139**
-
-**专业版为付费插件, 如有需要请联系qq 382146139**
-
 **专业版为付费插件, 如有需要请联系qq 382146139**
 
 # Fluttify系列插件
@@ -83,15 +81,7 @@ android {
 <key>CFBundleDisplayName</key>
 <string>填入你的名称</string>
 ```
-3. 如果是swift项目(flutter创建项目时默认), 需要注释掉Podfile中的`use_frameworks!`, 如下:
-```ruby
-target 'Runner' do
-  # use_frameworks!
-  use_modular_headers!
-
-  # Flutter Pod
-...
-```
+3. https://stackoverflow.com/questions/27776497/include-of-non-modular-header-inside-framework-module
 
 
 ## 导入
